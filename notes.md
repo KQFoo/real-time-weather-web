@@ -20,8 +20,8 @@ Using: HTML, CSS, JavaScript, Python, (Reactjs/Nodejs), (MongoDB/Firebase), Git
 
 3 Click "REDIRECT" to redirect to the platform where chosen job posted on
 
-4 Click the job to trigger "About the job" to know more relevant info
+4 Click the job to trigger "About the job" (AI-generated) to know more relevant info
 
 5 Setting (Location, Certificate) 
-  - Location (Miri, Sarawak, Malaysia)
+  - Location (e.g. Miri, Sarawak, Malaysia)
   - Certificate (Diploma, Degree, Not required)
