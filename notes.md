@@ -14,9 +14,11 @@ Solution 2: Enter your cert level in the setting first to filter the list
 
 Using: HTML, CSS, JavaScript, Python, (Reactjs/Nodejs), (MongoDB/Firebase), Git, Github
 
+===================================================================
 1 Search bar to find the relevant keyword results in the platforms
 
 2 Connecting other platforms (e.g. LinkedIn, JobStreet, Hiredly)
+===================================================================
 
 3 Click "REDIRECT" to redirect to the platform where chosen job posted on
 
