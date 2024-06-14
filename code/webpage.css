@@ -1,21 +1,18 @@
 body
 {
+    max-width: 1300px;
    background-color: rgba(0, 74, 173, 0.15);
-   height: 100vh;
 }
 .webTitle
 {
-    background-color: rgb(255,255,255);
-    width:100%;
-    padding: 0;
-    margin: 0;
+    background-color: rgba(255,255,255,0.75);
+    padding: 0.5% 2%;
 }
 .TitleFont
 {
-    font-family: Georgia;
+    --font-inter:'Inter', sans-serif;
     color: rgb(0, 74, 173);
     display: inline-block;
-    margin: 0;
 }
 .Fast
 {
@@ -27,23 +24,16 @@ body
     font-weight: normal;
     font-size: 20px;
 }
-.com
-{
-    font-style: italic;
-    font-size: 10px;
-}
 .searchBar
 {
-    align-items: center;
     display: inline-block;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 500px;
+    align-self: center;
 }
 .searchBar input
 {
     background-color: #f4f4f4;
-    padding: 10px;
+    padding: 6px 15%;
     font-size: 16px;
     border: 1px solid rgb(0, 74, 173);
     border-radius: 4px 0 0 4px;
@@ -51,6 +41,10 @@ body
 .searchBar input[placeholder]
 {
     text-align: center;
+}
+.searchBar button{
+    width: fit-content;
+    height: 30px;
 }
 .gearIcon{
     width: 30px;
