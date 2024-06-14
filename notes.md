@@ -1,7 +1,7 @@
 # Functional requirements and notes
 
 Name: FASTJOB.COM
-Definition: An optimized job finder that combines all specific job lists from all selected platforms into one platform
+Definition: A job board aggregator that combines all specific job lists from all selected platforms into one platform
 
 Target user: Students, Fresh graduates
 User motivation: Finding jobs
