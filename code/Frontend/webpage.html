@@ -13,14 +13,14 @@
         <div class="title">
             <p class="firstStyle">Jus</p><p class="secondStyle">Weather</p>
         </div>
-        <div name="location"class="searchBar">
+        <form class="searchBar" method="get">
             <input type="text" class="barStyle" placeholder="Search City">
             <button type="submit" class="barStyle" name="location">
                 <svg class="magnifier" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="m15.97 17.031c-1.479 1.238-3.384 1.985-5.461 1.985-4.697 0-8.509-3.812-8.509-8.508s3.812-8.508 8.509-8.508c4.695 0 8.508 3.812 8.508 8.508 0 2.078-.747 3.984-1.985 5.461l4.749 4.75c.146.146.219.338.219.531 0 .587-.537.75-.75.75-.192 0-.384-.073-.531-.22zm-5.461-13.53c-3.868 0-7.007 3.14-7.007 7.007s3.139 7.007 7.007 7.007c3.866 0 7.007-3.14 7.007-7.007s-3.141-7.007-7.007-7.007z" fill-rule="nonzero"/>
                 </svg>
             </button>
-        </div>
+        </form> 
     </header>
     <div class="weather">
         <div class="main-weather">
@@ -34,11 +34,48 @@
                 </div>
                </div>
                <div class="lower-current">
-
+                    <div class="lower-left">
+                        <div class="temperature">
+                            31C
+                        </div>
+                        <div class="date">
+                            June 18th 12:29pm
+                        </div>
+                        <div class="location">
+                            Miri, MY
+                        </div>
+                    </div>
+                    <div class="lower-right">
+                        <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" xml:space="preserve">
+                            <circle class="sun-fill" cx="32" cy="32" r="12" />
+                            <path class="sun-icon" d="M39.682 35.636A8.483 8.483 0 0 1 34.2 40.21M32 16V8M40.907 16.572l2.186-3.785M48.214 23.546l3.785-2.185M48 32h8M49 41.815 52.785 44M42.269 48.214l2.185 3.785M32 48v8M23.093 47.428l-2.186 3.785M17.358 41.361l-3.785 2.185M16 32H8M18.144 24l-3.785-2.185M24.454 17.358l-2.185-3.785"/>
+                        </svg>
+                    </div>
                </div>
             </div>
             <div class="forecast">
-                <p>forecast</p>
+                <legend class="forecast-head">5-Day Forecast</legend>
+                <div class="forecast-list">
+                    <svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2">
+                        <circle class="sun-fill" cx="32" cy="32" r="12"/>
+                        <path class="sun-icon" d="M39.682 35.636A8.483 8.483 0 0 1 34.2 40.21M32 16V8M40.907 16.572l2.186-3.785M48.214 23.546l3.785-2.185M48 32h8M49 41.815 52.785 44M42.269 48.214l2.185 3.785M32 48v8M23.093 47.428l-2.186 3.785M17.358 41.361l-3.785 2.185M16 32H8M18.144 24l-3.785-2.185M24.454 17.358l-2.185-3.785" />
+                    </svg><a class="list-text">31C  June    19 Wed  0000</a></div>
+                <div class="forecast-list"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2">
+                    <circle class="sun-fill" cx="32" cy="32" r="12"/>
+                    <path class="sun-icon" d="M39.682 35.636A8.483 8.483 0 0 1 34.2 40.21M32 16V8M40.907 16.572l2.186-3.785M48.214 23.546l3.785-2.185M48 32h8M49 41.815 52.785 44M42.269 48.214l2.185 3.785M32 48v8M23.093 47.428l-2.186 3.785M17.358 41.361l-3.785 2.185M16 32H8M18.144 24l-3.785-2.185M24.454 17.358l-2.185-3.785" />
+                </svg><a class="list-text">31C  June    19 Wed  0300</a></div>
+                <div class="forecast-list"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2">
+                    <circle class="sun-fill" cx="32" cy="32" r="12"/>
+                    <path class="sun-icon" d="M39.682 35.636A8.483 8.483 0 0 1 34.2 40.21M32 16V8M40.907 16.572l2.186-3.785M48.214 23.546l3.785-2.185M48 32h8M49 41.815 52.785 44M42.269 48.214l2.185 3.785M32 48v8M23.093 47.428l-2.186 3.785M17.358 41.361l-3.785 2.185M16 32H8M18.144 24l-3.785-2.185M24.454 17.358l-2.185-3.785" />
+                </svg><a class="list-text">31C  June    19 Wed   0600</a></div>
+                <div class="forecast-list"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2">
+                    <circle class="sun-fill" cx="32" cy="32" r="12"/>
+                    <path class="sun-icon" d="M39.682 35.636A8.483 8.483 0 0 1 34.2 40.21M32 16V8M40.907 16.572l2.186-3.785M48.214 23.546l3.785-2.185M48 32h8M49 41.815 52.785 44M42.269 48.214l2.185 3.785M32 48v8M23.093 47.428l-2.186 3.785M17.358 41.361l-3.785 2.185M16 32H8M18.144 24l-3.785-2.185M24.454 17.358l-2.185-3.785" />
+                </svg><a class="list-text">31C  June    19 Wed  0900</a></div>
+                <div class="forecast-list last-list"><svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2">
+                    <circle class="sun-fill" cx="32" cy="32" r="12"/>
+                    <path class="sun-icon" d="M39.682 35.636A8.483 8.483 0 0 1 34.2 40.21M32 16V8M40.907 16.572l2.186-3.785M48.214 23.546l3.785-2.185M48 32h8M49 41.815 52.785 44M42.269 48.214l2.185 3.785M32 48v8M23.093 47.428l-2.186 3.785M17.358 41.361l-3.785 2.185M16 32H8M18.144 24l-3.785-2.185M24.454 17.358l-2.185-3.785" />
+                </svg><a class="list-text">31C  June    19 Wed  1200</a></div>
             </div>
         </div>
         <div class="weather-board">
