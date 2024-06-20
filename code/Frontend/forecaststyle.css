@@ -1,0 +1,36 @@
+.forecast
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+    width: 16vw;
+    max-height: 35vh;
+    flex: 1;
+    font-size: 2vh;
+    border-radius: 25px;
+    padding: 2vh 2vw;
+    user-select: none;
+}
+
+.forecast-head
+{
+    color: #00000066;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    flex: 1;
+    padding-bottom: 2vh;
+}
+.forecast-list
+{
+    padding: 0 1vw;
+    align-self: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    flex: 1;
+}

@@ -1,0 +1,67 @@
+.value
+{
+    transition: 1.2s;
+}
+.current,.upper-current
+{
+    transition: 1s;
+}
+.weather-description,.weather-title,.temperature
+{
+    transition: color 2s;
+}
+.test
+{
+    transition: opacity 2s ease, transform 2s ease, background 1.5s ease, transform 1.5s ease;
+}
+.board
+{
+    margin-left: 2px;
+    transition: background 1.5s;
+}
+.board:hover
+{
+
+    background-position: 45vw;
+}
+.board-text
+{
+
+    transition: 2s;
+}
+.board:hover .board-text
+{
+    font-size: xx-large;
+}
+.current:hover
+{
+    background-color: #d2d2e7af;
+
+    .upper-current,.lower-current
+    {
+        opacity: 0.8;
+    }
+}
+.forecast
+{
+    transition:1s;
+}
+.forecast:hover
+{
+    background-color: #d2d2e7af;
+}
+.firstStyle,.secondStyle
+{
+    transition: color 0.5s;
+}
+.title:hover
+{
+    .firstStyle
+    {
+        color:#FFB854;
+    }
+    .secondStyle
+    {
+        color: #FFB854;
+    }
+}

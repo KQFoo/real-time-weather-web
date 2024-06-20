@@ -1,0 +1,65 @@
+.weather-board {
+    padding-right: 0;
+    box-sizing: border-box;
+    padding: 5vh 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.board {
+    height: 25%;
+    align-self: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Inter';
+    width: 45vw;
+    background-color: white;
+    user-select: none;
+}
+
+.humidity {
+    background: linear-gradient(90deg, #00d8ff00, #00d8ff33, #00d8ff66, #00d8ff99, #00d8ffCC, #00d8ffFF);
+    border-radius: 15px 15px 0 0;
+}
+
+.board:hover {
+    border: solid;
+}
+
+.pressure {
+    background: linear-gradient(90deg, #00ffab00, #00ffab33, #00ffab66, #00ffab99, #00ffabCC, #00ffabFF);
+}
+
+.visibility {
+    background: linear-gradient(90deg, #cb424200, #cb424233, #cb424266, #cb424299, #cb4242CC, #cb4242FF);
+}
+
+.feeling {
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(90deg, #ff820000, #ff820033, #ff820066, #ff820099, #ff8200CC, #ff8200FF);
+}
+
+.board-text {
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 2.5vh;
+    height: 20%;
+    padding: 0;
+}
+
+.value {
+    align-content: end;
+    text-align: left;
+    height: 80%;
+    font-size: 5vi;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+}
+ 
+

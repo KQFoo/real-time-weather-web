@@ -1,0 +1,91 @@
+@media (max-width:600px)
+{
+    .title
+    {
+        padding-left: 2vw;
+        font-size: 5vw;
+        max-width: 40%;
+    }
+    .searchBar
+    {
+        margin-left: 0;
+        margin-right: 5vw;
+        max-width: 50vw;
+    }
+    input.barStyle
+    {
+        max-width: 40vw;
+        flex: 0.5;
+    }
+    button.barStyle
+    {
+        min-width: 10vw;
+        flex:1;
+    }
+    input::placeholder
+    {
+        font-size: 2vw;
+    }
+    .date,.location
+    {
+        font-size: 2vh;
+    }
+    .current
+    {
+        max-height: 40vh;
+    }
+    .upper-current
+    {
+        max-height: 15vh;
+        font-size: 2vh;
+        flex: 1;
+    }
+    .lower-current
+    {
+        max-height: 25vh;
+        flex: 1;
+    }
+    .weather-title
+    {
+        margin: 3vh 2vw 0 2vw;
+    }
+    .weather-description
+    {
+        font-size: larger;
+    }
+    .lower-right
+    {
+        opacity: 0;
+        transform: translateX(-100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .date,.location,.temperature {
+        width: 100%;
+    }
+
+
+
+
+
+    .forecast
+    {
+        margin-left: 0;
+        width: 31vw;
+    }
+
+
+
+
+
+    .value
+    {
+        font-size: 6vi;
+    }
+    .board:hover .board-text
+    {
+        font-size: large;
+    }
+}
