@@ -1,0 +1,86 @@
+.header {
+    padding: 1vh 1vw;
+    height: 8vh;
+    background-color: #0047AB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.title {
+    height: 100%;
+    font-size: 5vh;
+    transition: 1s;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    align-content: center;
+    padding-right: 5%;
+    user-select:auto;
+    cursor: pointer;
+}
+.firstStyle {
+    font-weight: 900;
+    color: white;
+}
+
+.secondStyle {
+    font-weight: 400;
+    color: white;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    margin-right: 30vw;
+    height: 4.6vh;
+    box-sizing: border-box;
+}
+.barStyle {
+    flex: 1;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+}
+
+input.barStyle {
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+    border-radius: 20px 0 0 20px;
+    background-color: #f4f4f4;
+    padding: 0 1vw;
+    
+}
+
+button.barStyle {
+    box-sizing: border-box;
+    background-color: #004AAD;
+    flex: 0.1;
+    align-items: center;
+    display: flex;
+    border: #f4f4f4 solid;
+    border-radius: 0 50px 50px 0;
+    cursor: pointer;
+    padding: 0 1vw;
+}
+
+input::placeholder {
+    margin-top: 2vh;
+    justify-self: center;
+    color: #737373;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 2.4vh;
+    user-select: none;
+}
+
+.magnifier {
+    box-sizing: content-box;
+    stroke: white 5px;
+    max-height: 100%;
+    fill: white;
+}
