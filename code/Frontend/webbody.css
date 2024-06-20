@@ -19,7 +19,9 @@ body {
     flex-direction: row;
     background-color: #f4f4f4;
 }
-.left, .right {
+
+.left,
+.right {
     flex: 1;
     box-sizing: border-box;
 }
@@ -36,8 +38,7 @@ body {
     height: 100%;
 }
 
-.main-weather
-{
+.main-weather {
     padding: 5vh 0;
     flex: 1;
     display: flex;

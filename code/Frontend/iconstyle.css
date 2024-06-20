@@ -1,23 +1,24 @@
-.icon-size{
-    height: 2vh;
+.icon-size {
+    height: 2.5vh;
     width: 2vw;
 }
-.sun-fill
-{
+
+.sun-fill {
     fill: orange;
 }
-.main-sun-icon
-{
+
+.main-sun-icon {
     fill: orange;
     stroke: orange;
 }
+
 .sun-icon {
 
     fill: orange;
     stroke: orange;
 }
-.temp-size
-{
+
+.temp-size {
     box-sizing: border-box;
     flex: 1;
 }
