@@ -4,14 +4,16 @@ const express = require("express");
 const axios = require("axios");
 const app = express();
 
-app.use(express.static(__dirname + "/frontend/webpage.html"));
+app.set("view engine", "ejs");
+
+app.use(express.static("frontend"));
 
 // Default values
 app.get("/", (req, res) => {
-    //res.sendFile(__dirname + "/frontend/webpage.html");
-    //res.render("webpage", { weather: null, error: null });
+    res.render("webpage", { weather: null, error: null });
 });
 
+// Handle the /weather route
 app.get("/weather", async (req, res) => {
     const city = req.query.city;
     const api_key = "ba8a4fc15777561d5d2a278ea745131d";
@@ -26,14 +28,15 @@ app.get("/weather", async (req, res) => {
         const response = await axios.get(api_url);
         weather = response.data;
     }
-    catch {
+    catch (error) {
         weather = null;
-        error = "Error, please try again";
+        console.error("Error: " + error);
     }
 
     res.render("webpage", { weather, error });
 });
 
+// http://localhost:3000
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`App is running on port ${port}`);
