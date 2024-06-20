@@ -1,5 +1,4 @@
-.forecast
-{
+.forecast {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -13,10 +12,10 @@
     user-select: none;
 }
 
-.forecast-head
-{
+.forecast-head {
     color: #00000066;
     width: 100%;
+    font-weight: bold;
     align-content: center;
     text-align: center;
     align-self: center;
@@ -24,8 +23,8 @@
     flex: 1;
     padding-bottom: 2vh;
 }
-.forecast-list
-{
+
+.forecast-list {
     padding: 0 1vw;
     align-self: center;
     display: flex;
