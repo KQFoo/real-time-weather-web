@@ -1,5 +1,4 @@
-.current
-{
+.current {
     background-color: white;
     border-radius: 25px;
     box-sizing: border-box;
@@ -10,8 +9,8 @@
     flex-direction: column;
     user-select: none;
 }
-.upper-current
-{
+
+.upper-current {
     max-width: 40vw;
     max-height: 8vh;
     font-size: 2vw;
@@ -22,49 +21,49 @@
     font-weight: 700;
     padding-bottom: 1vh;
 }
-.weather-title
-{
+
+.weather-title {
     flex: 1;
     padding-top: 1vh;
     color: #00000066;
 }
-.weather-description
-{
+
+.weather-description {
     text-align: center;
     flex: 1;
 }
-.lower-current
-{
+
+.lower-current {
     text-align: center;
-    flex:1;
+    flex: 1;
     display: flex;
     align-items: end;
     max-height: 42vh;
     padding-bottom: 0;
 }
-.lower-left
-{
 
-    flex:1;
+.lower-left {
+
+    flex: 1;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.temperature
-{
+.temperature {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 35vh;
     width: 24vw;
-    font-size: 10vw;
+    font-size: 8.5vw;
     font-weight: 700;
 
 }
-.date, .location
-{
+
+.date,
+.location {
     display: flex;
     justify-content: center;
     width: 24vw;
@@ -73,18 +72,17 @@
     transition: 1s;
     flex: 1;
 }
-.location
-{
+
+.location {
     padding-top: 1vh;
     padding-bottom: 5vh;
 }
-.lower-right
-{
+
+.lower-right {
     align-self: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex:1;
+    flex: 1;
     height: 100%;
 }
-
