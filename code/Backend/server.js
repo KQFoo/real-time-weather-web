@@ -22,7 +22,7 @@ app.get("/weather", async (req, res) => {
         console.error("City is required");
     }
 
-    const api_key = "ba8a4fc15777561d5d2a278ea745131d";
+    const api_key = "YOUR_API_KEY";
 
     const geo_api_url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${api_key}`; // To get "latitude" && "longitude"
 
