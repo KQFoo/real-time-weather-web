@@ -107,21 +107,6 @@ app.get("/weather", async (req, res) => {
     res.render("webpage", { weather, error, iconUrl, getTime, getDate, icons, temps, dates, times });
 });
 
-const months = [
-    "Jan",
-    "Feb",
-    "Mar",
-    "Apr",
-    "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec"
-];
-
 // Start the server and listen on port 3000 or the value of the PORT environment variable
 // http://localhost:3000
 const port = process.env.PORT || 3000;
